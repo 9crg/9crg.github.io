@@ -402,16 +402,22 @@ label{ display:block; margin-bottom: 8px; color: rgba(255,255,255,.8); font-size
   .apply{ box-shadow: none; }
 }
 
-/* === CONTACT FORM SHADOW CLIP FIX === */
+/* === CONTACT BOX FINAL FIX === */
 
-/* Outer contact card */
+/* Big contact container */
 #contact .rounded-3xl {
-  overflow: hidden;
-  background: rgba(0,0,0,0.6);
+  overflow: hidden;                 /* clips background FX */
+  background: rgba(0,0,0,0.6);      /* prevents glow bleed */
 }
 
 /* Inner form card */
 #contact .bg-black\/40 {
   overflow: hidden;
   background: rgba(0,0,0,0.65);
+}
+
+/* Slightly reduce background effects near bottom */
+#contact ~ footer .fx-gradient,
+#contact ~ footer .fx-blob {
+  opacity: 0.12;
 }
