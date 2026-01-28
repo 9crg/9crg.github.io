@@ -422,9 +422,10 @@ label{ display:block; margin-bottom: 8px; color: rgba(255,255,255,.8); font-size
   opacity: 0.12;
 }
 
-@media (min-width: 900px){
-  .contact-grid{
-    grid-template-columns: 0.8fr 1.2fr;
-    column-gap: 40px;
+/* === Move contact form box to the right (desktop only) === */
+@media (min-width: 900px) {
+  #contact .bg-black\/40 {
+    margin-left: 40px;   /* push the black box to the right */
   }
 }
+
