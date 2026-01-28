@@ -421,3 +421,12 @@ label{ display:block; margin-bottom: 8px; color: rgba(255,255,255,.8); font-size
 #contact ~ footer .fx-blob {
   opacity: 0.12;
 }
+
+/* === CONTACT LAYOUT: push form more to the right (desktop) === */
+@media (min-width: 900px){
+  .contact-grid{
+    grid-template-columns: 0.9fr 1.1fr; /* left smaller, right bigger */
+    column-gap: 34px;                  /* more space between */
+    align-items: start;
+  }
+}
