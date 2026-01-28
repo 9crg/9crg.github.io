@@ -435,3 +435,9 @@ label{ display:block; margin-bottom: 8px; color: rgba(255,255,255,.8); font-size
   padding: 0 14px;
   border-radius: 14px;
 }
+/* === FORCE form input height (guaranteed) === */
+.app-input {
+  height: 42px !important;
+  padding: 0 14px !important;
+  border-radius: 14px !important;
+}
