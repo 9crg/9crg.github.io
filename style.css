@@ -401,3 +401,17 @@ label{ display:block; margin-bottom: 8px; color: rgba(255,255,255,.8); font-size
   .fx-blob{ opacity: 0.14; }
   .apply{ box-shadow: none; }
 }
+
+/* === CONTACT FORM SHADOW CLIP FIX === */
+
+/* Outer contact card */
+#contact .rounded-3xl {
+  overflow: hidden;
+  background: rgba(0,0,0,0.6);
+}
+
+/* Inner form card */
+#contact .bg-black\/40 {
+  overflow: hidden;
+  background: rgba(0,0,0,0.65);
+}
