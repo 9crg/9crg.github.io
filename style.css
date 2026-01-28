@@ -429,3 +429,9 @@ label{ display:block; margin-bottom: 8px; color: rgba(255,255,255,.8); font-size
   }
 }
 
+/* === Fix input height to fit form card === */
+#contact .app-input {
+  height: 42px;              /* was too tall */
+  padding: 0 14px;
+  border-radius: 14px;
+}
