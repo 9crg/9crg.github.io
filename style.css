@@ -1,4 +1,5 @@
-body{outline:10px solid red!important;}
+/* TEST: if you see a red border, CSS is loading */
+body { outline: 10px solid red !important; }
 
 html { scroll-behavior: smooth; }
 body {
@@ -443,5 +444,3 @@ label{ display:block; margin-bottom: 8px; color: rgba(255,255,255,.8); font-size
   padding: 0 14px !important;
   border-radius: 14px !important;
 }
-/* TEST: if you see a red border, CSS is loading */
-body { outline: 10px solid red !important; }
