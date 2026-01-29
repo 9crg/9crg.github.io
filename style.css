@@ -220,13 +220,16 @@ label{ display:block; margin-bottom: 8px; color: rgba(255,255,255,.8); font-size
 
 .app-input{
   width: 100%;
-  height: 46px;
-  border-radius: 14px;
+  height: 40px;              /* slightly shorter */
   padding: 0 14px;
+  border-radius: 14px;
   background: rgba(255,255,255,.06);
   border: 1px solid rgba(255,255,255,.10);
   color: white;
   outline: none;
+
+  font-size: 14px;           /* THIS is the key */
+  line-height: 40px;         /* matches height */
 }
 .app-input::placeholder{ color: rgba(255,255,255,.35); }
 .app-input:focus{
