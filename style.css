@@ -262,6 +262,8 @@ label{ display:block; margin-bottom: 8px; color: rgba(255,255,255,.8); font-size
   color: white;
   font-weight: 800;
   transition: 200ms;
+
+  margin-top: 20px;   /* 👈 THIS IS THE FIX */
 }
 .app-submit:hover{
   transform: translateY(-1px);
