@@ -220,7 +220,7 @@ label{ display:block; margin-bottom: 8px; color: rgba(255,255,255,.8); font-size
 
 .app-input{
   width: 100%;
-  height: 38px;                 /* slimmer */
+  height: 40px;          /* solid, not bulky */
   padding: 0 14px;
   border-radius: 14px;
   background: rgba(255,255,255,.06);
@@ -228,7 +228,7 @@ label{ display:block; margin-bottom: 8px; color: rgba(255,255,255,.8); font-size
   color: white;
   outline: none;
 
-  font-size: 13px;              /* smaller text */
+  font-size: 14px;       /* readable, clean */
 }
 
 .app-input::placeholder{ color: rgba(255,255,255,.35); }
