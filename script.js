@@ -46,7 +46,7 @@ form.addEventListener("submit", async (e) => {
       body: JSON.stringify(payload),
     });
 
-    statusEl.textContent = "✅ Submitted! Check your Google Sheet.";
+    statusEl.textContent = "✅ Application received. We’ll review it and get back to you.";
     form.reset();
     followersHidden.value = "20k / 50k";
     pillButtons.forEach((b) => b.classList.remove("app-pill-active"));
